@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4a7c59; /* Rich Green */
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #c59f07; /* Gold */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8f7405;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: #4a7c59;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+}
+
+.cta a {
+    padding: 10px 15px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+/* Featured Products */
+.featured-products {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+}
+
+.product p {
+    margin-bottom: 20px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a7c59;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer .newsletter form {
+    margin-top: 20px;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    border: none;
+    width: 250px;
+    margin-right: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #c59f07;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
