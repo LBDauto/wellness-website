@@ -1,187 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pure Vital Rituals | Wellness & Gut Health</title>
-    <style>
-        body {
-            font-family: 'Lato', sans-serif;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #f9f9f9;
-            padding: 20px 0;
-            text-align: center;
-            border-bottom: 1px solid #e5e5e5;
-        }
-
-        header h1 {
-            font-size: 36px;
-            color: #556B2F;
-            margin: 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        #hero {
-            background: url('hero-image.jpg') no-repeat center center/cover;
-            height: 60vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            text-align: center;
-        }
-
-        #hero h2 {
-            font-size: 48px;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 32px;
-            color: #556B2F;
-        }
-
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        .product-card {
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #e5e5e5;
-            text-align: center;
-        }
-
-        .product-card img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .product-card h3 {
-            margin: 15px 0;
-            font-size: 24px;
-            color: #556B2F;
-        }
-
-        .product-card p {
-            font-size: 16px;
-            color: #777;
-        }
-
-        .product-card button {
-            background-color: #556B2F;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-
-        .blog-posts, .wellness-rituals {
-            margin-bottom: 40px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-top: 1px solid #e5e5e5;
-        }
-
-        footer p {
-            color: #777;
-        }
-
-        .cta-button {
-            background-color: #556B2F;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        .cta-button:hover {
-            background-color: #4b5c24;
-        }
-    </style>
+    <title>Vital Essence Rituals</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
+<body>
     <!-- Header Section -->
     <header>
-        <h1>Vital Essence Rituals</h1>
+        <div class="logo">
+            <h1>Vital Essence Rituals</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#wellness-rituals">Wellness Rituals</a></li>
-                <li><a href="#gut-health-blog">Gut Health Blog</a></li>
-                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#rituals">Wellness Rituals</a></li>
+                <li><a href="#blog">Gut Health Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="cta">
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <h2>Elevating Wellness, One Ritual at a Time</h2>
-    </section>
-
-    <!-- Product Section -->
-    <section id="products" class="container">
-        <h2 class="section-title">Our Products</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="tea-image.jpg" alt="Premium Tea">
-                <h3>Premium Gut Health Tea</h3>
-                <p>A luxurious blend designed to support gut health and vitality.</p>
-                <button class="cta-button">Shop Now</button>
-            </div>
-            <div class="product-card">
-                <img src="capsules-image.jpg" alt="Wellness Capsules">
-                <h3>Wellness Capsules</h3>
-                <p>Enhance your gut health with easy-to-use capsules.</p>
-                <button class="cta-button">Shop Now</button>
-            </div>
-            <div class="product-card">
-                <img src="infuser-image.jpg" alt="Tea Infuser">
-                <h3>Luxury Tea Infuser</h3>
-                <p>Pair your loose-leaf tea with our sleek, easy-to-use infuser.</p>
-                <button class="cta-button">Shop Now</button>
-            </div>
-        </div>
-    </section>
+    <!-- Product Section: The McGhie JCG -->
     <section class="product" id="mcghie-jcg">
         <h2>The McGhie JCG</h2>
 
@@ -225,6 +72,8 @@
             <p>Phytochemical and nutritional analysis conducted by Eurofins Nutrition Analysis Centre, Iowa, USA demonstrated that McGhie JCG contains a wide variety of naturally occurring compounds that may be of nutritional value. In addition to being an excellent source of carbohydrates, vitamins, minerals, flavonoids, dietary fiber, and energy, the plant was found to contain a high portion of protein in comparison to plants of its kind.</p>
         </div>
     </section>
+
+    <!-- Featured Products Section -->
     <section class="featured-products" id="shop">
         <h2>Featured Products</h2>
         <div class="products">
@@ -243,36 +92,59 @@
             </div>
         </div>
     </section>
-    <!-- Wellness Rituals Section -->
-    <section id="wellness-rituals" class="container">
-        <h2 class="section-title">Wellness Rituals</h2>
-        <div class="wellness-rituals">
-            <p>Incorporate wellness into your daily routine with simple, effective rituals that nourish both body and mind. Whether it's starting your day with a cup of our Premium Gut Health Tea or meditating with essential oils, our curated wellness rituals help you live a healthier, more vibrant life.</p>
-            <button class="cta-button">Learn More</button>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Are Saying</h2>
+        <div class="testimonial">
+            <p>“The wellness tea has completely transformed my daily routine. I feel more energized and my gut health has never been better.” - Sarah J.</p>
+        </div>
+        <div class="testimonial">
+            <p>“These capsules are a game-changer. I feel more vibrant and healthier than ever.” - John D.</p>
         </div>
     </section>
 
+    <!-- Wellness Rituals Section -->
+    <section id="rituals">
+        <h2>Wellness Rituals</h2>
+        <p>Learn how to integrate our premium wellness products into your daily routine. Discover the calming, health-boosting benefits of our products through rituals that promote relaxation and vitality.</p>
+        <img src="images/rituals.jpg" alt="Wellness Ritual" width="300">
+    </section>
+
     <!-- Gut Health Blog Section -->
-    <section id="gut-health-blog" class="container">
-        <h2 class="section-title">Gut Health Blog</h2>
-        <div class="blog-posts">
-            <h3>How Gut Health Affects Your Energy Levels</h3>
-            <p>Discover how a healthy gut can boost your energy and overall vitality.</p>
-            <button class="cta-button">Read More</button>
+    <section id="blog">
+        <h2>Gut Health Blog</h2>
+        <div class="blog-post">
+            <h3>Understanding the Gut-Brain Connection</h3>
+            <p>Explore how gut health impacts mental well-being, and how our products support a balanced gut microbiome.</p>
+            <a href="#">Read more</a>
         </div>
-        <div class="blog-posts">
-            <h3>5 Foods to Improve Gut Health</h3>
-            <p>Learn about the best foods to include in your diet for optimal gut health.</p>
-            <button class="cta-button">Read More</button>
+        <div class="blog-post">
+            <h3>Top Ingredients for Gut Health</h3>
+            <p>Learn about the key ingredients in our products that promote gut health and vitality.</p>
+            <a href="#">Read more</a>
         </div>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Pure Vital Rituals. All Rights Reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2024 Vital Essence Rituals. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Pinterest</a></li>
+            </ul>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
     </footer>
-
 </body>
-</html>
 
 </html>
+
